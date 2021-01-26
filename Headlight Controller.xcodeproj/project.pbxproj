@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		226844FE25BFC62000C62149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226844FD25BFC62000C62149 /* AppDelegate.swift */; };
 		2268450025BFC62000C62149 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226844FF25BFC62000C62149 /* SceneDelegate.swift */; };
-		2268450225BFC62000C62149 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268450125BFC62000C62149 /* ViewController.swift */; };
 		2268450525BFC62000C62149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2268450325BFC62000C62149 /* Main.storyboard */; };
 		2268450725BFC62C00C62149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2268450625BFC62C00C62149 /* Assets.xcassets */; };
 		2268450A25BFC62C00C62149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2268450825BFC62C00C62149 /* LaunchScreen.storyboard */; };
+		2268451525BFC98800C62149 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2268451425BFC98800C62149 /* GoogleService-Info.plist */; };
+		B6D4DC3431FD61F1C8F40A2B /* Pods_Headlight_Controller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6730EB2E988DE9E32A428 /* Pods_Headlight_Controller.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		226844FA25BFC62000C62149 /* Headlight Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Headlight Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		226844FD25BFC62000C62149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		226844FF25BFC62000C62149 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2268450125BFC62000C62149 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2268450425BFC62000C62149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2268450625BFC62C00C62149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2268450925BFC62C00C62149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2268450B25BFC62C00C62149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2268451425BFC98800C62149 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2EF6730EB2E988DE9E32A428 /* Pods_Headlight_Controller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Headlight_Controller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A48442D3594F1A78E8A761 /* Pods-Headlight Controller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Headlight Controller.release.xcconfig"; path = "Target Support Files/Pods-Headlight Controller/Pods-Headlight Controller.release.xcconfig"; sourceTree = "<group>"; };
+		7954EF00749F8E6C749D28F6 /* Pods-Headlight Controller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Headlight Controller.debug.xcconfig"; path = "Target Support Files/Pods-Headlight Controller/Pods-Headlight Controller.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D4DC3431FD61F1C8F40A2B /* Pods_Headlight_Controller.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				226844FC25BFC62000C62149 /* Headlight Controller */,
 				226844FB25BFC62000C62149 /* Products */,
+				CD1A2328611A4F57F914479B /* Pods */,
+				51E83EC8DA97EAAA0BD56E30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +65,31 @@
 			children = (
 				226844FD25BFC62000C62149 /* AppDelegate.swift */,
 				226844FF25BFC62000C62149 /* SceneDelegate.swift */,
-				2268450125BFC62000C62149 /* ViewController.swift */,
 				2268450325BFC62000C62149 /* Main.storyboard */,
 				2268450625BFC62C00C62149 /* Assets.xcassets */,
 				2268450825BFC62C00C62149 /* LaunchScreen.storyboard */,
 				2268450B25BFC62C00C62149 /* Info.plist */,
+				2268451425BFC98800C62149 /* GoogleService-Info.plist */,
 			);
 			path = "Headlight Controller";
+			sourceTree = "<group>";
+		};
+		51E83EC8DA97EAAA0BD56E30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EF6730EB2E988DE9E32A428 /* Pods_Headlight_Controller.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD1A2328611A4F57F914479B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7954EF00749F8E6C749D28F6 /* Pods-Headlight Controller.debug.xcconfig */,
+				38A48442D3594F1A78E8A761 /* Pods-Headlight Controller.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +99,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2268450E25BFC62C00C62149 /* Build configuration list for PBXNativeTarget "Headlight Controller" */;
 			buildPhases = (
+				B3690FF463E03C28E4A9E973 /* [CP] Check Pods Manifest.lock */,
 				226844F625BFC62000C62149 /* Sources */,
 				226844F725BFC62000C62149 /* Frameworks */,
 				226844F825BFC62000C62149 /* Resources */,
+				ECDD74C32E753A035479A7AE /* [CP] Embed Pods Frameworks */,
+				CA2E1CBE6B7E4B793DCEEB46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2268450A25BFC62C00C62149 /* LaunchScreen.storyboard in Resources */,
+				2268451525BFC98800C62149 /* GoogleService-Info.plist in Resources */,
 				2268450725BFC62C00C62149 /* Assets.xcassets in Resources */,
 				2268450525BFC62000C62149 /* Main.storyboard in Resources */,
 			);
@@ -132,12 +161,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B3690FF463E03C28E4A9E973 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Headlight Controller-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA2E1CBE6B7E4B793DCEEB46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Headlight Controller/Pods-Headlight Controller-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Headlight Controller/Pods-Headlight Controller-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Headlight Controller/Pods-Headlight Controller-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECDD74C32E753A035479A7AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Headlight Controller/Pods-Headlight Controller-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Headlight Controller/Pods-Headlight Controller-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Headlight Controller/Pods-Headlight Controller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		226844F625BFC62000C62149 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2268450225BFC62000C62149 /* ViewController.swift in Sources */,
 				226844FE25BFC62000C62149 /* AppDelegate.swift in Sources */,
 				2268450025BFC62000C62149 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +370,7 @@
 		};
 		2268450F25BFC62C00C62149 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7954EF00749F8E6C749D28F6 /* Pods-Headlight Controller.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +389,7 @@
 		};
 		2268451025BFC62C00C62149 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38A48442D3594F1A78E8A761 /* Pods-Headlight Controller.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
