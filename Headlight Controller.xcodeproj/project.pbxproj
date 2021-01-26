@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,11 @@
 		2268450725BFC62C00C62149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2268450625BFC62C00C62149 /* Assets.xcassets */; };
 		2268450A25BFC62C00C62149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2268450825BFC62C00C62149 /* LaunchScreen.storyboard */; };
 		2268451525BFC98800C62149 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2268451425BFC98800C62149 /* GoogleService-Info.plist */; };
+		2268453225BFCC8E00C62149 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268453125BFCC8E00C62149 /* LoginViewController.swift */; };
+		2268453625BFD5A400C62149 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268453525BFD5A400C62149 /* HomeViewController.swift */; };
+		2268457325C0AFE500C62149 /* ControlTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268457225C0AFE500C62149 /* ControlTabController.swift */; };
+		2268457625C0B04200C62149 /* AnimationTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268457525C0B04200C62149 /* AnimationTabController.swift */; };
+		2268457925C0B09D00C62149 /* ConfigurationTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268457825C0B09D00C62149 /* ConfigurationTabController.swift */; };
 		B6D4DC3431FD61F1C8F40A2B /* Pods_Headlight_Controller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6730EB2E988DE9E32A428 /* Pods_Headlight_Controller.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +30,12 @@
 		2268450925BFC62C00C62149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2268450B25BFC62C00C62149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2268451425BFC98800C62149 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2268453125BFCC8E00C62149 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2268453525BFD5A400C62149 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2268455725BFEABA00C62149 /* Headlight Controller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Headlight Controller.entitlements"; sourceTree = "<group>"; };
+		2268457225C0AFE500C62149 /* ControlTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlTabController.swift; sourceTree = "<group>"; };
+		2268457525C0B04200C62149 /* AnimationTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTabController.swift; sourceTree = "<group>"; };
+		2268457825C0B09D00C62149 /* ConfigurationTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationTabController.swift; sourceTree = "<group>"; };
 		2EF6730EB2E988DE9E32A428 /* Pods_Headlight_Controller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Headlight_Controller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A48442D3594F1A78E8A761 /* Pods-Headlight Controller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Headlight Controller.release.xcconfig"; path = "Target Support Files/Pods-Headlight Controller/Pods-Headlight Controller.release.xcconfig"; sourceTree = "<group>"; };
 		7954EF00749F8E6C749D28F6 /* Pods-Headlight Controller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Headlight Controller.debug.xcconfig"; path = "Target Support Files/Pods-Headlight Controller/Pods-Headlight Controller.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +74,7 @@
 		226844FC25BFC62000C62149 /* Headlight Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2268455725BFEABA00C62149 /* Headlight Controller.entitlements */,
 				226844FD25BFC62000C62149 /* AppDelegate.swift */,
 				226844FF25BFC62000C62149 /* SceneDelegate.swift */,
 				2268450325BFC62000C62149 /* Main.storyboard */,
@@ -70,6 +82,11 @@
 				2268450825BFC62C00C62149 /* LaunchScreen.storyboard */,
 				2268450B25BFC62C00C62149 /* Info.plist */,
 				2268451425BFC98800C62149 /* GoogleService-Info.plist */,
+				2268453525BFD5A400C62149 /* HomeViewController.swift */,
+				2268453125BFCC8E00C62149 /* LoginViewController.swift */,
+				2268457225C0AFE500C62149 /* ControlTabController.swift */,
+				2268457525C0B04200C62149 /* AnimationTabController.swift */,
+				2268457825C0B09D00C62149 /* ConfigurationTabController.swift */,
 			);
 			path = "Headlight Controller";
 			sourceTree = "<group>";
@@ -88,7 +105,6 @@
 				7954EF00749F8E6C749D28F6 /* Pods-Headlight Controller.debug.xcconfig */,
 				38A48442D3594F1A78E8A761 /* Pods-Headlight Controller.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -225,8 +241,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2268453225BFCC8E00C62149 /* LoginViewController.swift in Sources */,
+				2268457325C0AFE500C62149 /* ControlTabController.swift in Sources */,
 				226844FE25BFC62000C62149 /* AppDelegate.swift in Sources */,
 				2268450025BFC62000C62149 /* SceneDelegate.swift in Sources */,
+				2268457625C0B04200C62149 /* AnimationTabController.swift in Sources */,
+				2268453625BFD5A400C62149 /* HomeViewController.swift in Sources */,
+				2268457925C0B09D00C62149 /* ConfigurationTabController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Headlight Controller/Headlight Controller.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Headlight Controller/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -393,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Headlight Controller/Headlight Controller.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Headlight Controller/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
