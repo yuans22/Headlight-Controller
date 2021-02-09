@@ -7,7 +7,7 @@
 
 import UIKit
 import Firebase
-import FirebaseAuth
+//impor`    AQ234567890-=-0987651`1t FirebaseAuth
 
 class HomeViewController: UIViewController{
     
