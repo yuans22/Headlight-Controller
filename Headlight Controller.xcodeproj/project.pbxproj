@@ -19,6 +19,8 @@
 		2268457625C0B04200C62149 /* AnimationTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268457525C0B04200C62149 /* AnimationTabController.swift */; };
 		2268457925C0B09D00C62149 /* ConfigurationTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268457825C0B09D00C62149 /* ConfigurationTabController.swift */; };
 		B6D4DC3431FD61F1C8F40A2B /* Pods_Headlight_Controller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6730EB2E988DE9E32A428 /* Pods_Headlight_Controller.framework */; };
+		F9F746CC25DCEAAA00F51222 /* mainSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F746CB25DCEAAA00F51222 /* mainSideViewController.swift */; };
+		F9F746CF25DCEB1200F51222 /* AnimationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F746CE25DCEB1200F51222 /* AnimationDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		2EF6730EB2E988DE9E32A428 /* Pods_Headlight_Controller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Headlight_Controller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A48442D3594F1A78E8A761 /* Pods-Headlight Controller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Headlight Controller.release.xcconfig"; path = "Target Support Files/Pods-Headlight Controller/Pods-Headlight Controller.release.xcconfig"; sourceTree = "<group>"; };
 		7954EF00749F8E6C749D28F6 /* Pods-Headlight Controller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Headlight Controller.debug.xcconfig"; path = "Target Support Files/Pods-Headlight Controller/Pods-Headlight Controller.debug.xcconfig"; sourceTree = "<group>"; };
+		F9F746CB25DCEAAA00F51222 /* mainSideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainSideViewController.swift; sourceTree = "<group>"; };
+		F9F746CE25DCEB1200F51222 /* AnimationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				2268457225C0AFE500C62149 /* ControlTabController.swift */,
 				2268457525C0B04200C62149 /* AnimationTabController.swift */,
 				2268457825C0B09D00C62149 /* ConfigurationTabController.swift */,
+				F9F746CB25DCEAAA00F51222 /* mainSideViewController.swift */,
+				F9F746CE25DCEB1200F51222 /* AnimationDetailViewController.swift */,
 			);
 			path = "Headlight Controller";
 			sourceTree = "<group>";
@@ -241,9 +247,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9F746CC25DCEAAA00F51222 /* mainSideViewController.swift in Sources */,
 				2268453225BFCC8E00C62149 /* LoginViewController.swift in Sources */,
 				2268457325C0AFE500C62149 /* ControlTabController.swift in Sources */,
 				226844FE25BFC62000C62149 /* AppDelegate.swift in Sources */,
+				F9F746CF25DCEB1200F51222 /* AnimationDetailViewController.swift in Sources */,
 				2268450025BFC62000C62149 /* SceneDelegate.swift in Sources */,
 				2268457625C0B04200C62149 /* AnimationTabController.swift in Sources */,
 				2268453625BFD5A400C62149 /* HomeViewController.swift in Sources */,
