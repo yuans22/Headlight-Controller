@@ -238,20 +238,10 @@
                                     <action selector="pressedSendPatternButton:" destination="OH1-77-iad" eventType="touchUpInside" id="S81-7t-9Bb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDk-gV-Mrm">
-                                <rect key="frame" x="88" y="612" width="238" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Create New"/>
-                                <connections>
-                                    <action selector="pressedCreatNewButton:" destination="OH1-77-iad" eventType="touchUpInside" id="zF2-1H-MWD"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Azf-lD-IaP">
                                 <rect key="frame" x="89" y="302" width="238" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Pattern "/>
                                 <connections>
@@ -528,236 +518,308 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="lXb-OJ-dlu">
                                         <rect key="frame" x="0.0" y="0.0" width="365" height="55"/>
                                         <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6r-B6-alN">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6r-B6-alN">
                                                 <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.87943264015411415" green="0.99484011401613603" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="cfE-XT-0a2"/>
                                                     <constraint firstAttribute="width" constant="55" id="m3d-dK-sYg"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="e04-1G-qNz"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVT-R4-kYh">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVT-R4-kYh">
                                                 <rect key="frame" x="62" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.87943264015411415" green="0.99484011401613603" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="55" id="sGO-t6-tvi"/>
                                                     <constraint firstAttribute="height" constant="55" id="xyf-PY-CTZ"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="4pr-Jb-cFb"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vc5-dV-oWF">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vc5-dV-oWF">
                                                 <rect key="frame" x="124" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.87943264015411415" green="0.99484011401613603" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="55" id="Su9-qW-btW"/>
                                                     <constraint firstAttribute="height" constant="55" id="ehr-Q2-1gp"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="yBV-0J-eXZ"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59e-Ha-y3A">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59e-Ha-y3A">
                                                 <rect key="frame" x="186" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="10P-ox-jHr"/>
                                                     <constraint firstAttribute="width" constant="55" id="OQj-4c-oH1"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="wwZ-dH-6Vx"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQj-C6-kI6">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQj-C6-kI6">
                                                 <rect key="frame" x="248" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="55" id="42s-We-8su"/>
                                                     <constraint firstAttribute="height" constant="55" id="aq4-CC-r5A"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="PbQ-X6-y6w"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyt-QV-t8A">
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyt-QV-t8A">
                                                 <rect key="frame" x="310" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="55" id="K1u-fC-pNJ"/>
                                                     <constraint firstAttribute="height" constant="55" id="dxX-5w-9YW"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="keQ-Ov-i9f"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="TiH-V4-4lb">
                                         <rect key="frame" x="0.0" y="62" width="365" height="55"/>
                                         <subviews>
-                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QjX-UD-0rF">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QjX-UD-0rF">
                                                 <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="55" id="Qmv-Id-B2i"/>
                                                     <constraint firstAttribute="height" constant="55" id="n9R-dS-cU4"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="4yc-KD-7HG"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSw-hH-TcJ">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSw-hH-TcJ">
                                                 <rect key="frame" x="62" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="55" id="fhL-9P-y4V"/>
                                                     <constraint firstAttribute="height" constant="55" id="txp-NU-P8Q"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="yfa-ie-qPt"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2y-rs-oVA">
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2y-rs-oVA">
                                                 <rect key="frame" x="124" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="55" id="q9K-lO-V8X"/>
                                                     <constraint firstAttribute="height" constant="55" id="uwg-4z-6JL"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="X8S-U3-fi1"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rv1-je-hDw">
+                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rv1-je-hDw">
                                                 <rect key="frame" x="186" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="55" id="8m0-KW-IT9"/>
                                                     <constraint firstAttribute="height" constant="55" id="VGf-5K-6W6"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="cBv-Sm-yrQ"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3u-Fp-ls4">
+                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3u-Fp-ls4">
                                                 <rect key="frame" x="248" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="CNP-2p-SSo"/>
                                                     <constraint firstAttribute="width" constant="55" id="DvX-04-Tn1"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="0SE-Tn-nSi"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q53-R6-inr">
+                                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q53-R6-inr">
                                                 <rect key="frame" x="310" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="OO2-TT-RFU"/>
                                                     <constraint firstAttribute="width" constant="55" id="bKm-fN-YCg"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="dMX-bl-GFb"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="NZ7-pc-MkK">
                                         <rect key="frame" x="0.0" y="124" width="365" height="55"/>
                                         <subviews>
-                                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKd-v8-h2c">
+                                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKd-v8-h2c">
                                                 <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="55" id="WD1-V8-5WO"/>
                                                     <constraint firstAttribute="height" constant="55" id="vmV-cZ-eKu"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="1mk-m1-hJo"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adC-HP-x8j">
+                                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adC-HP-x8j">
                                                 <rect key="frame" x="62" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="55" id="GkV-1U-lh2"/>
                                                     <constraint firstAttribute="height" constant="55" id="T7f-vs-pNf"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="t2K-pH-iiB"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dea-cB-eTR">
+                                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dea-cB-eTR">
                                                 <rect key="frame" x="124" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="55" id="hTe-fo-GBJ"/>
                                                     <constraint firstAttribute="height" constant="55" id="xXZ-e1-1a2"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="0rc-8M-VgP"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8DD-8D-zJH">
+                                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8DD-8D-zJH">
                                                 <rect key="frame" x="186" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="hhH-Jl-XYt"/>
                                                     <constraint firstAttribute="width" constant="55" id="mcy-ym-cOC"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="rDF-F2-SoG"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJD-rG-vlz">
+                                            <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJD-rG-vlz">
                                                 <rect key="frame" x="248" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="0nd-Hn-1yb"/>
                                                     <constraint firstAttribute="width" constant="55" id="Y19-lC-AxX"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="4BI-eu-pGs"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="226-CJ-FkM">
+                                            <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="226-CJ-FkM">
                                                 <rect key="frame" x="310" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="Afv-TC-gsU"/>
                                                     <constraint firstAttribute="width" constant="55" id="G3F-kA-ied"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="DjV-kY-wsM"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="JbI-Lz-6rA">
                                         <rect key="frame" x="0.0" y="186" width="365" height="55"/>
                                         <subviews>
-                                            <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aid-sw-GNI">
+                                            <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aid-sw-GNI">
                                                 <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="QPQ-PO-Yu4"/>
                                                     <constraint firstAttribute="width" constant="55" id="qRG-Ks-2b7"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="Qtg-Sn-iaL"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cre-af-Bhg">
+                                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cre-af-Bhg">
                                                 <rect key="frame" x="62" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="55" id="4yc-77-np9"/>
                                                     <constraint firstAttribute="height" constant="55" id="Z93-W6-dDH"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="nzp-kh-ftK"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYr-vZ-1bW">
+                                            <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYr-vZ-1bW">
                                                 <rect key="frame" x="124" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="5IF-bl-yxp"/>
                                                     <constraint firstAttribute="width" constant="55" id="a3l-03-Bo8"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="qsf-Cx-m6e"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Njs-Kt-Qs3">
+                                            <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Njs-Kt-Qs3">
                                                 <rect key="frame" x="186" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="55" id="HeF-lG-zxp"/>
                                                     <constraint firstAttribute="height" constant="55" id="uXH-Kf-SGR"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="FU7-TJ-7Im"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6b-Dm-HcI">
+                                            <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6b-Dm-HcI">
                                                 <rect key="frame" x="248" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="55" id="aAm-PF-Cew"/>
                                                     <constraint firstAttribute="height" constant="55" id="cKz-vT-7ih"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="iGZ-Mo-Wpg"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" tag="24" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EU-Oy-215">
+                                            <button opaque="NO" tag="24" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EU-Oy-215">
                                                 <rect key="frame" x="310" y="0.0" width="55" height="55"/>
                                                 <color key="backgroundColor" red="0.8794326402" green="0.99484011400000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="Aie-xz-d4F"/>
                                                     <constraint firstAttribute="width" constant="55" id="Gfs-E2-v3g"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="light_off.png"/>
+                                                <connections>
+                                                    <action selector="pressedLEDButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="aMf-bn-z2S"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -769,6 +831,9 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Previous Frame"/>
+                                <connections>
+                                    <action selector="pressedPreviousButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="svC-0L-0Ro"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9H-4z-8Hd">
                                 <rect key="frame" x="260" y="618.5" width="119" height="41.5"/>
@@ -779,6 +844,9 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Next Frame"/>
+                                <connections>
+                                    <action selector="pressedNextFrameButton:" destination="9Lz-Lm-YIQ" eventType="touchUpInside" id="nJ8-AY-Jdd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Amz-MF-RMA"/>
@@ -807,15 +875,131 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7rW-pN-1kC"/>
+                    <connections>
+                        <outlet property="animationNameField" destination="T6k-wA-QNK" id="1L2-Wf-tcV"/>
+                        <outlet property="pageLabel" destination="cBf-n3-dHQ" id="Mal-Gd-16f"/>
+                        <outletCollection property="allButtons" destination="M6r-B6-alN" collectionClass="NSMutableArray" id="hcw-aC-wjZ"/>
+                        <outletCollection property="allButtons" destination="EVT-R4-kYh" collectionClass="NSMutableArray" id="aOP-Ym-wUF"/>
+                        <outletCollection property="allButtons" destination="vc5-dV-oWF" collectionClass="NSMutableArray" id="Zx0-76-3hu"/>
+                        <outletCollection property="allButtons" destination="59e-Ha-y3A" collectionClass="NSMutableArray" id="bN7-P5-Kbj"/>
+                        <outletCollection property="allButtons" destination="vQj-C6-kI6" collectionClass="NSMutableArray" id="cVr-Dx-fZa"/>
+                        <outletCollection property="allButtons" destination="wyt-QV-t8A" collectionClass="NSMutableArray" id="kp0-Cq-MQi"/>
+                        <outletCollection property="allButtons" destination="QjX-UD-0rF" collectionClass="NSMutableArray" id="wuQ-RI-zok"/>
+                        <outletCollection property="allButtons" destination="sSw-hH-TcJ" collectionClass="NSMutableArray" id="AWJ-V2-ttP"/>
+                        <outletCollection property="allButtons" destination="I2y-rs-oVA" collectionClass="NSMutableArray" id="58I-30-xKb"/>
+                        <outletCollection property="allButtons" destination="rv1-je-hDw" collectionClass="NSMutableArray" id="caD-i3-2z3"/>
+                        <outletCollection property="allButtons" destination="K3u-Fp-ls4" collectionClass="NSMutableArray" id="hwZ-ox-fDR"/>
+                        <outletCollection property="allButtons" destination="q53-R6-inr" collectionClass="NSMutableArray" id="UAl-ha-18v"/>
+                        <outletCollection property="allButtons" destination="vKd-v8-h2c" collectionClass="NSMutableArray" id="M7I-Xh-sYO"/>
+                        <outletCollection property="allButtons" destination="adC-HP-x8j" collectionClass="NSMutableArray" id="Lig-eg-HgC"/>
+                        <outletCollection property="allButtons" destination="Dea-cB-eTR" collectionClass="NSMutableArray" id="LVV-Ws-hc8"/>
+                        <outletCollection property="allButtons" destination="8DD-8D-zJH" collectionClass="NSMutableArray" id="1IW-cI-oNj"/>
+                        <outletCollection property="allButtons" destination="iJD-rG-vlz" collectionClass="NSMutableArray" id="ukf-qP-sz6"/>
+                        <outletCollection property="allButtons" destination="226-CJ-FkM" collectionClass="NSMutableArray" id="9ZQ-Ey-Uwm"/>
+                        <outletCollection property="allButtons" destination="Aid-sw-GNI" collectionClass="NSMutableArray" id="wik-m7-Csh"/>
+                        <outletCollection property="allButtons" destination="Cre-af-Bhg" collectionClass="NSMutableArray" id="Sie-eh-63f"/>
+                        <outletCollection property="allButtons" destination="aYr-vZ-1bW" collectionClass="NSMutableArray" id="Lnh-W1-WX9"/>
+                        <outletCollection property="allButtons" destination="Njs-Kt-Qs3" collectionClass="NSMutableArray" id="EHv-43-BUT"/>
+                        <outletCollection property="allButtons" destination="q6b-Dm-HcI" collectionClass="NSMutableArray" id="eo5-Oy-tVo"/>
+                        <outletCollection property="allButtons" destination="3EU-Oy-215" collectionClass="NSMutableArray" id="9mr-mb-LwD"/>
+                        <segue destination="0s3-sz-QS2" kind="presentation" identifier="ToLEDDetailSegue" id="FiO-Y7-LOu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M7g-wb-GKt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2942.0289855072465" y="209.59821428571428"/>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="mHN-6t-D4K">
+            <objects>
+                <viewController id="0s3-sz-QS2" customClass="LEDDetailViewController" customModule="Headlight_Controller" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X3S-1C-Wnh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="cwm-hA-bvt">
+                                <rect key="frame" x="39" y="381" width="336" height="31"/>
+                                <connections>
+                                    <action selector="dutySlide:" destination="0s3-sz-QS2" eventType="valueChanged" id="6vp-ZC-xMc"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0BZ-du-PlE">
+                                <rect key="frame" x="41" y="522" width="70" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="MET-e0-wwv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <action selector="pressedCancelButton:" destination="0s3-sz-QS2" eventType="touchUpInside" id="gAR-zr-ffv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqT-eg-N0H">
+                                <rect key="frame" x="333" y="522" width="32" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="29C-Uk-9aT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="OK"/>
+                                <connections>
+                                    <action selector="pressedOKButton:" destination="0s3-sz-QS2" eventType="touchUpInside" id="nOd-9C-PNl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REf-aF-o2M">
+                                <rect key="frame" x="83" y="176" width="249" height="40"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <state key="normal" title="Modify LED Duty Cycle"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFa-fl-RDT">
+                                <rect key="frame" x="173" y="252" width="69" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duty Cycle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSV-wR-Bj3">
+                                <rect key="frame" x="72" y="314" width="270" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uhg-sD-9Yo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fSV-wR-Bj3" firstAttribute="top" secondItem="QFa-fl-RDT" secondAttribute="bottom" constant="35.5" id="3sS-yW-FiQ"/>
+                            <constraint firstItem="fqT-eg-N0H" firstAttribute="top" secondItem="cwm-hA-bvt" secondAttribute="bottom" constant="111" id="4hE-gA-M9U"/>
+                            <constraint firstItem="fqT-eg-N0H" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="0BZ-du-PlE" secondAttribute="trailing" constant="8" symbolic="YES" id="54F-Ef-Od2"/>
+                            <constraint firstItem="uhg-sD-9Yo" firstAttribute="trailing" secondItem="REf-aF-o2M" secondAttribute="trailing" constant="82" id="DKA-5V-2j6"/>
+                            <constraint firstItem="uhg-sD-9Yo" firstAttribute="trailing" secondItem="cwm-hA-bvt" secondAttribute="trailing" constant="41" id="Jcc-5o-o2J"/>
+                            <constraint firstItem="uhg-sD-9Yo" firstAttribute="trailing" secondItem="QFa-fl-RDT" secondAttribute="trailing" constant="172" id="R7V-FC-PJB"/>
+                            <constraint firstItem="cwm-hA-bvt" firstAttribute="leading" secondItem="uhg-sD-9Yo" secondAttribute="leading" constant="41" id="UF0-be-dB9"/>
+                            <constraint firstItem="REf-aF-o2M" firstAttribute="top" secondItem="uhg-sD-9Yo" secondAttribute="top" constant="176" id="UQb-9a-hcY"/>
+                            <constraint firstItem="REf-aF-o2M" firstAttribute="leading" secondItem="uhg-sD-9Yo" secondAttribute="leading" constant="83" id="ai4-m9-IIk"/>
+                            <constraint firstItem="uhg-sD-9Yo" firstAttribute="trailing" secondItem="fqT-eg-N0H" secondAttribute="trailing" constant="49" id="fLc-4b-ahW"/>
+                            <constraint firstItem="cwm-hA-bvt" firstAttribute="top" secondItem="fSV-wR-Bj3" secondAttribute="bottom" constant="40" id="mKx-3O-2H9"/>
+                            <constraint firstItem="0BZ-du-PlE" firstAttribute="leading" secondItem="uhg-sD-9Yo" secondAttribute="leading" constant="41" id="n7e-6d-lg2"/>
+                            <constraint firstItem="0BZ-du-PlE" firstAttribute="top" secondItem="cwm-hA-bvt" secondAttribute="bottom" constant="111" id="nSv-ZH-VjW"/>
+                            <constraint firstItem="QFa-fl-RDT" firstAttribute="leading" secondItem="uhg-sD-9Yo" secondAttribute="leading" constant="173" id="r6K-7H-wwn"/>
+                            <constraint firstItem="QFa-fl-RDT" firstAttribute="top" secondItem="REf-aF-o2M" secondAttribute="bottom" constant="36" id="rF6-N3-4au"/>
+                            <constraint firstItem="fSV-wR-Bj3" firstAttribute="leading" secondItem="uhg-sD-9Yo" secondAttribute="leading" constant="72" id="sj1-jC-or4"/>
+                            <constraint firstItem="uhg-sD-9Yo" firstAttribute="trailing" secondItem="fSV-wR-Bj3" secondAttribute="trailing" constant="72" id="yYJ-cI-SRx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="eef-Ho-gZo"/>
+                    <connections>
+                        <outlet property="NoLEDLabel" destination="QFa-fl-RDT" id="hqR-L4-1Pz"/>
+                        <outlet property="ducycycleValueLabel" destination="fSV-wR-Bj3" id="BMa-ZQ-WyO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tJv-oy-zdU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3782.608695652174" y="209.59821428571428"/>
+        </scene>
     </scenes>
     <resources>
         <image name="account_box_36pt" width="36" height="36"/>
         <image name="delete_36pt" width="36" height="36"/>
+        <image name="light_off.png" width="100" height="100"/>
         <image name="logout_36pt" width="36" height="36"/>
         <image name="people_alt_36pt" width="36" height="36"/>
         <image name="person_36pt" width="36" height="36"/>
@@ -827,6 +1011,9 @@
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

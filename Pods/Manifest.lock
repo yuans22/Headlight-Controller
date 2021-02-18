@@ -224,6 +224,7 @@ PODS:
     - BoringSSL-GRPC/Interface (= 0.0.7)
   - BoringSSL-GRPC/Interface (0.0.7)
   - DropDown (2.3.13)
+  - DynamicBlurView (4.1.0)
   - Firebase/Analytics (7.4.0):
     - Firebase/Core
   - Firebase/Auth (7.4.0):
@@ -354,6 +355,8 @@ PODS:
     - nanopb/encode (= 2.30907.0)
   - nanopb/decode (2.30907.0)
   - nanopb/encode (2.30907.0)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
   - PromisesObjC (1.2.12)
   - Rosefire (3.0.0beta)
   - SideMenu (6.5.0)
@@ -367,6 +370,7 @@ DEPENDENCIES:
   - GoogleSignIn
   - iOSDropDown
   - Kingfisher
+  - PopupDialog (~> 1.1)
   - Rosefire (from `https://ada.csse.rose-hulman.edu/rosefire/ios-sdk.git`)
   - SideMenu
 
@@ -376,6 +380,7 @@ SPEC REPOS:
     - AppAuth
     - BoringSSL-GRPC
     - DropDown
+    - DynamicBlurView
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -396,6 +401,7 @@ SPEC REPOS:
     - Kingfisher
     - leveldb-library
     - nanopb
+    - PopupDialog
     - PromisesObjC
     - SideMenu
 
@@ -413,6 +419,7 @@ SPEC CHECKSUMS:
   AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
   BoringSSL-GRPC: 8edf627ee524575e2f8d19d56f068b448eea3879
   DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
   Firebase: 09fb40287b6dfc8ee65f726fa0b788719d3f2a07
   FirebaseAnalytics: adb3c8f02f83d00661cdaac6dbb4d54e9720d1b6
   FirebaseAuth: d8dba8db90a1705ee2493857047282ca4f6e7598
@@ -433,10 +440,11 @@ SPEC CHECKSUMS:
   Kingfisher: f5d8d60a0ef3edd642fd781bae60918599901aff
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: 59221d7f958fb711001e6a449489542d92ae113e
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
   Rosefire: 9cb4c5447b71302962bd0c2beca22f320689c326
   SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
 
-PODFILE CHECKSUM: 960d133d42d40455a9ddf747251c3665ec488a18
+PODFILE CHECKSUM: 7038af16cfdb622f3bfd99bbd77ab6660974947e
 
 COCOAPODS: 1.10.1

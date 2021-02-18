@@ -22,5 +22,6 @@ pod 'DropDown'
 pod 'Kingfisher'
 pod 'Firebase/Storage'
 pod 'iOSDropDown'
+pod 'PopupDialog', '~> 1.1'
 
 end
