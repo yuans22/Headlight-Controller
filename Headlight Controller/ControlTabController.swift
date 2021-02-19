@@ -110,11 +110,10 @@ class ControlTabController: UIViewController{
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ToLEDDetailSegue" && isEdit == true{
-            (segue.destination as! AnimationDetailViewController).singleLEDRef = LEDPatternRef.document(currentPattern!)
-            LEDPatternRef.document(currentPattern!).getDocument { (docu, error) in
-                (segue.destination as! AnimationDetailViewController).currentFramePattern = docu?.get("1") as! [Int] //?.data("1")
-            }
-//            (segue.destination as! AnimationDetailViewController).currentFramePattern =
+//            (segue.destination as! AnimationDetailViewController).singleLEDRef = LEDPatternRef.document(currentPattern!)
+//            LEDPatternRef.document(currentPattern!).getDocument { (docu, error) in
+//                (segue.destination as! AnimationDetailViewController).currentFramePattern = docu?.get("1") as! [Int] //?.data("1")
+//            }
         }
     }
     
